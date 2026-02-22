@@ -1,0 +1,18 @@
+{
+  "domain": "istanbulantalyaevdenevenakliye.com.tr",
+  "siteName": "İstanbul Antalya Evden Eve Nakliyat",
+  "siteTitle": "İstanbul Antalya Evden Eve Nakliyat | Profesyonel Taşımacılık",
+  "description": "İstanbul'dan Antalya'ya güvenli ev taşıma: uzman kadro, asansör kurulum ölçümü, hassas eşya kolileme ve eşya depolama seçeneğiyle sorunsuz taşının.",
+  "author": "İstanbul Antalya Evden Eve Nakliyat",
+  "logoLight": "/logo-beyaz.svg",
+  "logoDark": "/logo-koyu.svg",
+  "favicon": "/favicon.ico",
+  "language": "tr",
+  "currency": "TRY",
+  "timezone": "Europe/Istanbul",
+  "social": {
+    "twitter": "@istanbulizmir",
+    "facebook": "https://facebook.com/",
+    "instagram": "https://instagram.com/"
+  }
+}

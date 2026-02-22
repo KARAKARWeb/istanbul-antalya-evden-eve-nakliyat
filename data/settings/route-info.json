@@ -1,0 +1,14 @@
+{
+  "title": "İstanbul'dan Antalya'ya Planlanan Rota Bilgileri",
+  "description": "Haritadaki rota İstanbul çıkış, Antalya varış gösterir. Tahmini sürüş süresi ile mola planını görür, teslim saatini önceden belirlersiniz.",
+  "originCoords": "KOZCUOĞLU Eşya Depolama ve Nakliyat Hizmetleri",
+  "destinationCoords": "Antalya",
+  "fromCity": "İstanbul",
+  "toCity": "Antalya",
+  "distance": 701,
+  "duration": 8.5,
+  "basePrice": 1500,
+  "sourceCity": "İstanbul",
+  "targetCity": "Antalya",
+  "priceMin": 16800
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Hizmetlerimiz",
+  "description": "<p>Evinizden çıkan her parçayı planlı paketliyoruz, şehirlerarası nakliye aracına düzenli yüklüyoruz, Antalya’da odalara göre yerleştiriyoruz, teslim tutanağını birlikte kapatıyoruz.</p>",
+  "services": [
+    {
+      "title": "Evden Eve Nakliyat",
+      "description": "<p>Kolileme, montaj, taşıma; tek ekip lideriyle yönetilir, izlenir.</p>"
+    },
+    {
+      "title": "Sözleşmeli Evden Eve Nakliyat",
+      "description": "<p>İş emri, şartlar, teslim tarihi yazılı güvence sağlar.</p>"
+    },
+    {
+      "title": "Sigortalı Evden Eve Nakliyat",
+      "description": "<p>Poliçe kapsamı belirlenir; riskler sistemde kayıt altına alınır.</p>"
+    },
+    {
+      "title": "Asansörlü Evden Eve Nakliyat",
+      "description": "<p>Dış cephe asansörüyle hızlı yükleme, daha az darbe yaşanır.</p>"
+    },
+    {
+      "title": "Ofis Taşımacılığı",
+      "description": "<p>Arşiv, cihaz, mobilya; etiketli yerleşim planıyla taşınır, kurulur.</p>"
+    },
+    {
+      "title": "Eşya Depolama",
+      "description": "<p>Kilitlemeli alan, nem kontrolü, düzenli envanter takibi yapılır.</p>"
+    }
+  ],
+  "footer": "<p>Her taşıma öncesi ekspertiz raporuyla ekipman seçimi yaparız. Paketlemede karton köşelik, balonlu naylon, rulo ambalaj kullanırız. Kırılacaklar için ayrı koliler oluştururuz, numaralandırma yaparız. Araç içi sabitleme tamamlanınca rota başlar. Antalya’da teslim, oda planına göre ilerler; kontrol listesiyle işlem kapanır. Gerekirse depolama alanı ayırır, teslim tarihini esnetiriz. Her adım kayıt altındadır.</p>"
+}

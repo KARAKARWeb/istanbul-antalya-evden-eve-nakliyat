@@ -1,0 +1,46 @@
+{
+  "title": "Sıkça Sorulan Sorular",
+  "description": "<p>SSS bölümünde İstanbul Antalya taşıma hazırlığı, fiyat, sigorta, sözleşme, teslim süresi sorularına kısa, net yanıtlar bulursunuz, karar verirsiniz.</p>",
+  "faqs": [
+    {
+      "q": "İstanbul’dan Antalya’ya şehirlerarası evden eve nakliyat planlarken hangi bilgileri hazırlamalıyım?",
+      "a": "Adres, kat, oda sayısı, park mesafesi, tarih paylaşın. Ekspertiz sonrası ekipman seçilir. Fiyat kalemleri netleşir, sözleşme hazırlanır, rota saati belirlenir."
+    },
+    {
+      "q": "Evden eve nakliyat fiyatları İstanbul Antalya hattında nasıl hesaplanır?",
+      "a": "Hacim, kat, erişim, mesafe baz alınır. Paketleme, asansör, hamallık ayrı yazılır. Araç tipi eklenir. Toplam, onaylı kalemlerin toplamıdır."
+    },
+    {
+      "q": "Ücretsiz ekspertiz tam olarak ne yapar?",
+      "a": "Ekspertiz, hacmi ölçer, riskleri not eder. Kırılacaklar sınıflanır. Araç hacmi belirlenir. Asansör noktası ölçülür. Rapor, teklif ve tarih planı size iletilir."
+    },
+    {
+      "q": "Sigortalı ev taşıma seçeneğinde poliçe hangi riskleri kapsar?",
+      "a": "Poliçe kapsamı yazılıdır; riskler limitlerle tanımlanır. Hasar, teslimde tutanakla kayda girer. Fotoğraf eklenir. Dosya sigortaya iletilir, ödeme poliçe şartına göre yapılır."
+    },
+    {
+      "q": "Sözleşmeli evden eve nakliyat neden önemlidir?",
+      "a": "Sözleşme, işin sınırını belirler. Teslim saati, fiyat kalemi, iptal şartı okunur. Sorumluluk, montaj kapsamı sorulur. İmza sonrası iş emri numarası alınır."
+    },
+    {
+      "q": "Asansörlü evden eve nakliyat hangi binalarda tercih edilir?",
+      "a": "Yüksek kat, dar merdiven, ağır mobilyada tercih edilir. Kurulum alanı ölçülür. Güvenlik şeridi çekilir. Komşu bilgilendirilir. İzin, site yönetimi veya bina sorumlusundan alınır."
+    },
+    {
+      "q": "Taşıma günü paketleme sırası nasıl olmalı?",
+      "a": "Önce kırılacaklar, sonra tekstil, sonra kitaplar kolilenir. Elektronikler köpükle sarılır. Her koli oda adıyla etiketlenir. Antalya’da aynı etiket, doğru odayı hızla buldurur."
+    },
+    {
+      "q": "Eşya depolama gerektiğinde süreç nasıl işler?",
+      "a": "Depo kilitlemeli alan sunar, envanter listesi çıkarılır. Nem kontrolü yapılır. Giriş çıkış, sayım üzerinden ücretlenir. Geri çağırma, randevuyla aynı gün planlanabilir."
+    },
+    {
+      "q": "İstanbul Antalya rota süresi kaç saat sürer ve teslim planı nasıl kurulur?",
+      "a": "Rota süresi trafiğe göre değişir; plan, tahmini aralığa göre kurulur. Mola saatleri önceden yazılır. Varışta ekip lideri boşaltmayı koordine eder, teslim saati güncellenir."
+    },
+    {
+      "q": "Ev taşıma firmaları arasında seçim yaparken hangi belgeleri istemeliyim?",
+      "a": "Yetki belgesi, poliçe, sözleşme örneği, ekspertiz raporu isteyin. Fatura bilgisi kontrol edin. İş emri numarası alın. Şeffaf kalemli teklif, güvenilirlik işaretidir."
+    }
+  ]
+}
