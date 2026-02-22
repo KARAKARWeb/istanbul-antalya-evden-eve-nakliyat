@@ -164,8 +164,8 @@ export default async function Home() {
   const contentData = await fetchContentData();
   const regionsData = await fetchRegionsData();
   
-  // FAQ verilerini schema'ya geç - SSR uyumlu
-  const schema = await generateHomePageSchema(routeInfo, contentData.faq);
+  // FAQ ve reviews verilerini schema'ya geç - SSR uyumlu
+  const schema = await generateHomePageSchema(routeInfo, contentData.faq, contentData.reviews);
   
   return (
     <div className="min-h-screen bg-surface">

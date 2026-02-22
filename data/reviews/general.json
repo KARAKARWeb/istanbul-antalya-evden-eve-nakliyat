@@ -1,10 +1,35 @@
 {
-  "reviews": [],
+  "reviews": [
+    {
+      "id": "1",
+      "author": "Mehmet Yılmaz",
+      "rating": 5,
+      "date": "2026-02-15",
+      "comment": "İstanbul'dan Antalya'ya taşınma işlemimiz çok profesyonelce gerçekleşti. Ekip son derece titiz ve güler yüzlüydü. Tüm eşyalarımız hasarsız teslim edildi.",
+      "verified": true
+    },
+    {
+      "id": "2",
+      "author": "Ayşe Demir",
+      "rating": 5,
+      "date": "2026-02-10",
+      "comment": "Fiyat performans açısından çok memnun kaldık. Paketleme hizmeti de çok iyiydi. Kesinlikle tavsiye ederim.",
+      "verified": true
+    },
+    {
+      "id": "3",
+      "author": "Ali Kaya",
+      "rating": 4,
+      "date": "2026-02-05",
+      "comment": "Genel olarak başarılı bir taşıma oldu. Sadece teslim saati biraz gecikti ama eşyalar sağlam geldi.",
+      "verified": true
+    }
+  ],
   "aggregateRating": {
-    "ratingValue": 0,
-    "reviewCount": 0,
+    "ratingValue": 4.7,
+    "reviewCount": 3,
     "bestRating": 5,
     "worstRating": 1
   },
-  "lastUpdated": "2026-02-22T22:41:18.457Z"
+  "lastUpdated": "2026-02-23T02:50:00.000Z"
 }

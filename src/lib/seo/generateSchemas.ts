@@ -63,7 +63,7 @@ export async function generateWebSiteSchema() {
   };
 }
 
-export async function generateHomePageSchema(routeInfo?: any, faqData?: any) {
+export async function generateHomePageSchema(routeInfo?: any, faqData?: any, reviewsData?: any) {
   const contact = await getContactSettings();
   const site = await getSiteSettings();
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || (site.domain ? `https://${site.domain}` : '');
@@ -173,13 +173,15 @@ export async function generateHomePageSchema(routeInfo?: any, faqData?: any) {
             closes: '23:59',
           },
         ],
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.8',
-          reviewCount: '127',
-          bestRating: '5',
-          worstRating: '1',
-        },
+        ...(reviewsData?.aggregateRating?.reviewCount > 0 && {
+          aggregateRating: {
+            '@type': 'AggregateRating',
+            ratingValue: reviewsData.aggregateRating.ratingValue.toString(),
+            reviewCount: reviewsData.aggregateRating.reviewCount.toString(),
+            bestRating: '5',
+            worstRating: '1',
+          },
+        }),
         sameAs: [
           contact.facebook,
           contact.instagram,
