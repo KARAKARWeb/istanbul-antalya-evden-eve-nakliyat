@@ -1,15 +1,15 @@
 'use client';
 
-import { useState, useEffect } from 'react';
 import { Star } from 'lucide-react';
 
 interface Review {
   id: string;
   author: string;
   rating: number;
-  text: string;
+  comment: string;
   date: string;
   verified: boolean;
+  location?: string;
 }
 
 interface AggregateRating {
@@ -20,38 +20,12 @@ interface AggregateRating {
 }
 
 interface ReviewsSectionProps {
-  regionId: string;
   regionTitle: string;
+  reviews: Review[];
+  aggregateRating: AggregateRating | null;
 }
 
-export function ReviewsSection({ regionId, regionTitle }: ReviewsSectionProps) {
-  const [reviews, setReviews] = useState<Review[]>([]);
-  const [aggregateRating, setAggregateRating] = useState<AggregateRating | null>(null);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    fetchReviews();
-  }, [regionId]);
-
-  const fetchReviews = async () => {
-    try {
-      const response = await fetch(`/api/regions/${regionId}/reviews`);
-      const data = await response.json();
-      console.log('Reviews data:', data); // Debug
-      setReviews(data.reviews || []);
-      setAggregateRating(data.aggregateRating);
-    } catch (error) {
-      console.error('Reviews fetch error:', error);
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  // Loading durumunda gösterme
-  if (loading) {
-    return null;
-  }
-
+export function ReviewsSection({ regionTitle, reviews, aggregateRating }: ReviewsSectionProps) {
   // Yorum yoksa default AggregateRating
   const defaultRating = {
     ratingValue: 4.8,
@@ -93,7 +67,7 @@ export function ReviewsSection({ regionId, regionTitle }: ReviewsSectionProps) {
                 "bestRating": 5,
                 "worstRating": 1
               },
-              "reviewBody": review.text
+              "reviewBody": review.comment
             })) : []
           })
         }}
@@ -149,7 +123,7 @@ export function ReviewsSection({ regionId, regionTitle }: ReviewsSectionProps) {
 
                 {/* Review Text */}
                 <p className="text-sm text-text-secondary mb-4 leading-relaxed">
-                  "{review.text}"
+                  "{review.comment}"
                 </p>
 
                 {/* Author & Date */}

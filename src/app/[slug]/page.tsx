@@ -213,6 +213,15 @@ export default async function RegionPage({ params }: PageProps) {
     description: region.description || '',
   };
 
+  // Reviews data - SSR uyumlu, doğrudan region JSON'dan
+  const reviews = region.reviews || [];
+  const aggregateRating = reviews.length > 0 ? {
+    ratingValue: Math.round((reviews.reduce((sum: number, r: any) => sum + r.rating, 0) / reviews.length) * 10) / 10,
+    reviewCount: reviews.length,
+    bestRating: 5,
+    worstRating: 1,
+  } : null;
+
   return (
     <div className="min-h-screen bg-surface">
       <Header siteSettings={siteSettings} contactData={contactSettings} />
@@ -268,7 +277,7 @@ export default async function RegionPage({ params }: PageProps) {
 
           {/* Müşteri Yorumları */}
           <div id="yorumlar">
-            <ReviewsSection regionId={region.id} regionTitle={region.title} />
+            <ReviewsSection regionTitle={region.title} reviews={reviews} aggregateRating={aggregateRating} />
           </div>
 
         </div>
