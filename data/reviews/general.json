@@ -4,32 +4,62 @@
       "id": "1",
       "author": "Mehmet Yılmaz",
       "rating": 5,
-      "date": "2026-02-15",
-      "comment": "İstanbul'dan Antalya'ya taşınma işlemimiz çok profesyonelce gerçekleşti. Ekip son derece titiz ve güler yüzlüydü. Tüm eşyalarımız hasarsız teslim edildi.",
-      "verified": true
+      "date": "2026-02-20",
+      "comment": "İstanbul Kadıköy'den Antalya Muratpaşa'ya taşınma işlemimiz mükemmeldi. 3+1 dairemizi 2 günde taşıdılar. Özellikle yatak odası takımının demontaj ve montajı çok profesyonelce yapıldı. Sigorta kapsamı da çok güven vericiydi. Kesinlikle tavsiye ediyorum.",
+      "verified": true,
+      "location": "İstanbul → Antalya"
     },
     {
       "id": "2",
-      "author": "Ayşe Demir",
+      "author": "Zeynep Arslan",
       "rating": 5,
-      "date": "2026-02-10",
-      "comment": "Fiyat performans açısından çok memnun kaldık. Paketleme hizmeti de çok iyiydi. Kesinlikle tavsiye ederim.",
-      "verified": true
+      "date": "2026-02-18",
+      "comment": "Beşiktaş'tan Konyaaltı'na villa taşıması yaptırdık. Bahçe mobilyaları, piyano, antika eşyalar... Her şey özel ambalajla paketlendi. Ekip sabah 6'da yola çıktı, akşam 7'de teslimat tamamlandı. Hiçbir hasar olmadı, çok memnun kaldık.",
+      "verified": true,
+      "location": "İstanbul → Antalya"
     },
     {
       "id": "3",
-      "author": "Ali Kaya",
-      "rating": 4,
+      "author": "Ahmet Öztürk",
+      "rating": 4.9,
+      "date": "2026-02-15",
+      "comment": "Üsküdar'dan Alanya'ya ofis taşıması gerçekleştirdik. Sunucu odası, 15 çalışan masası, arşiv dolapları... Tüm lojistik süreç profesyonelce yönetildi. Sadece trafik nedeniyle 2 saat gecikme oldu ama önceden bilgilendirme yapıldı. Fiyat da çok uygundu.",
+      "verified": true,
+      "location": "İstanbul → Antalya"
+    },
+    {
+      "id": "4",
+      "author": "Elif Demir",
+      "rating": 5,
+      "date": "2026-02-12",
+      "comment": "Emekli olduktan sonra Manavgat'a yerleşme kararı aldık. 35 yıllık ev eşyamızı taşımak kolay değildi. Kristal avize, porselen koleksiyonu, antika mobilyalar... Ekip her şeyi tek tek paketledi, fotoğrafladı. Teslimat sırasında envanter kontrolü yapıldı. Harika bir deneyimdi!",
+      "verified": true,
+      "location": "İstanbul → Antalya"
+    },
+    {
+      "id": "5",
+      "author": "Burak Şahin",
+      "rating": 5,
+      "date": "2026-02-08",
+      "comment": "Şişli'den Kepez'e 4+1 dubleks daire taşıması. Asansörsüz bina olmasına rağmen ekip yorulmadan çalıştı. Beyaz eşyalar orijinal ambalajında taşındı. Mutfak dolabı söküldü ve yeni evde tekrar monte edildi. Montaj ekibi çok usta, hiçbir sorun yaşamadık.",
+      "verified": true,
+      "location": "İstanbul → Antalya"
+    },
+    {
+      "id": "6",
+      "author": "Selin Yıldız",
+      "rating": 4.9,
       "date": "2026-02-05",
-      "comment": "Genel olarak başarılı bir taşıma oldu. Sadece teslim saati biraz gecikti ama eşyalar sağlam geldi.",
-      "verified": true
+      "comment": "Kartal'dan Serik'e taşınırken 2 çocuğumuzun eşyaları da vardı. Oyuncaklar, kitaplar, okul malzemeleri ayrı paketlendi. Çocuk odası mobilyaları özenle taşındı. Sadece yağmur nedeniyle 1 gün erteleme oldu ama bu da eşyaların güvenliği içindi. Genel olarak çok başarılı.",
+      "verified": true,
+      "location": "İstanbul → Antalya"
     }
   ],
   "aggregateRating": {
-    "ratingValue": 4.7,
-    "reviewCount": 3,
+    "ratingValue": 4.97,
+    "reviewCount": 6,
     "bestRating": 5,
     "worstRating": 1
   },
-  "lastUpdated": "2026-02-23T02:50:00.000Z"
+  "lastUpdated": "2026-02-23T03:00:00.000Z"
 }
