@@ -6,11 +6,10 @@ interface Review {
   id: string;
   author: string;
   rating: number;
-  text: string;
+  comment: string;
   date: string;
   verified: boolean;
-  regionTitle: string;
-  regionSlug: string;
+  location?: string;
 }
 
 interface AggregateRating {
@@ -87,7 +86,7 @@ export function GlobalReviewsSection({ siteSettings, contactData, reviewsData }:
                 "bestRating": 5,
                 "worstRating": 1
               },
-              "reviewBody": review.text
+              "reviewBody": review.comment
             }))
           })
         }}
@@ -148,13 +147,20 @@ export function GlobalReviewsSection({ siteSettings, contactData, reviewsData }:
 
                 {/* Review Text */}
                 <p className="text-sm text-text-secondary mb-3 line-clamp-3">
-                  {review.text}
+                  {review.comment}
                 </p>
 
-                {/* Region Badge */}
-                <div className="text-xs text-accent font-medium">
-                  {review.regionTitle}
-                </div>
+                {/* Location Badge */}
+                {review.location && (
+                  <div className="text-xs text-accent font-medium">
+                    {review.location}
+                  </div>
+                )}
+                {review.verified && (
+                  <div className="text-xs text-green-600 font-medium mt-1">
+                    ✓ Doğrulanmış
+                  </div>
+                )}
               </div>
             ))}
           </div>
